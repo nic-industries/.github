@@ -10,18 +10,6 @@ body:
     description: A concise description of what you're experiencing.
   validations:
     required: false
-- type: dropdown
-    id: priority
-    attributes:
-      label: Priority
-      description: Select the priority for this epic.
-      options:
-        - Critical
-        - High
-        - Medium
-        - Low
-    validations:
-      required: true
 - type: textarea
   attributes:
     label: Expected Behavior
