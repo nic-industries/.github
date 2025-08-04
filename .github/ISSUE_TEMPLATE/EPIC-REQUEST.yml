@@ -1,0 +1,48 @@
+name: 🚀 Epic
+title: "[EPIC]: <title>"
+description: A high-level initiative that groups related features and tasks.
+type: "Epic"
+projects: "nic-industries/8"
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: A high-level overview of the epic and its purpose.
+      placeholder: "e.g., Launch a new user profile and settings dashboard."
+    validations:
+      required: true
+
+  - type: textarea
+    id: business-value
+    attributes:
+      label: Strategic Goal / Business Value
+      description: Describe the strategic goal this epic aims to achieve and the value it will deliver.
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Define the boundaries of this epic, including what is in and out of scope.
+      value: |
+        ### In Scope
+        -
+
+        ### Out of Scope
+        -
+    validations:
+      required: true
+
+  - type: textarea
+    id: related-issues
+    attributes:
+      label: Related Issues
+      description: |
+        This checklist will track all the child issues (Features, Tasks, Bugs) that make up this epic.
+        Link issues by typing # and the issue number.
+      value: |
+        - [ ] Feature: #
+        - [ ] Task: #
+        - [ ] Bug: #
