@@ -1,0 +1,37 @@
+name: ✅ Task
+title: "[TASK] <title>"
+description: A specific, actionable work item.
+type: "Task"
+projects: "nic-industries/8"
+body:
+  - type: textarea
+    id: task-description
+    attributes:
+      label: Task Description
+      description: A clear and concise description of what needs to be done.
+      placeholder: "e.g., Upgrade the server's Node.js version to the latest LTS release."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: Define what "done" looks like for this task.
+      options:
+        - label: Criterion 1
+        - label: Criterion 2
+        - label: Criterion 3
+
+  - type: textarea
+    id: technical-details
+    attributes:
+      label: Technical Details & Resources
+      description: Provide any relevant technical details, documentation links, or other resources needed to complete this task.
+
+  - type: input
+    id: blocked-by
+    attributes:
+      label: Blocked By (optional)
+      description: List any other issues that must be completed before this one can be started.
+      placeholder: "e.g., #123"
