@@ -2,7 +2,7 @@ name: 🐞 Bug Report
 description: File a bug/issue
 title: "[BUG] <title>"
 type: "Bug"
-project: "nic-industries/8"
+projects: "nic-industries/8"
 body:
 - type: textarea
   attributes:
