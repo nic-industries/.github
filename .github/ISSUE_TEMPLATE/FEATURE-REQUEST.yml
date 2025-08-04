@@ -1,0 +1,44 @@
+name: ✨ Feature Request
+title: "[FEATURE]: <title>"
+description: Suggest an idea for this project.
+type: "Feature"
+projects: "nic-industries/8"
+body:
+  - type: textarea
+    id: related-problem
+    attributes:
+      label: Is your feature request related to a problem?
+      description: A clear and concise description of what the problem is.
+      placeholder: "e.g., I'm always frustrated when..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe the solution you'd like
+      description: A clear and concise description of what you want to happen.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Describe alternatives you've considered
+      description: A clear and concise description of any alternative solutions or features you've considered.
+
+  - type: textarea
+    id: user-story
+    attributes:
+      label: User Story
+      description: "Frame the feature from an end-user perspective: As a [type of user], I want [an action] so that [a benefit]."
+      placeholder: |
+        As a...
+        I want...
+        So that...
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context, mockups, or screenshots about the feature request here.
