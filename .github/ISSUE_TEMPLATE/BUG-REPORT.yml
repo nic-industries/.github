@@ -5,6 +5,13 @@ type: "Bug"
 labels: "needs-story-points"
 projects: "nic-industries/8"
 body:
+- type: input
+  id: reporter
+  attributes:
+    label: Reporter
+    description: Person who is reporting the bug.
+  validations:
+    required: true
 - type: textarea
   attributes:
     label: Current Behavior
@@ -33,6 +40,7 @@ body:
     label: Environment
     description: |
       examples:
+        - **Device Type**: Desktop
         - **OS**: Ubuntu 20.04
         - **Node**: 13.14.0
         - **npm**: 7.6.3
