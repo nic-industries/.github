@@ -5,6 +5,14 @@ type: "Task"
 labels: "needs-story-points"
 projects: "nic-industries/8"
 body:
+  - type: input
+    id: requester
+    attributes:
+      label: Requester
+      description: Person who is requesting the work.
+    validations:
+      required: true
+      
   - type: textarea
     id: task-description
     attributes:
