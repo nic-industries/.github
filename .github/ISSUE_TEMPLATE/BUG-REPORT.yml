@@ -3,7 +3,7 @@ description: File a bug/issue
 title: "[BUG] <title>"
 type: "Bug"
 labels: "needs-story-points"
-projects: "nic-industries/projects/8"
+projects: "nic-industries/8"
 body:
 - type: input
   id: reporter
